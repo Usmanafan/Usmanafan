@@ -1,0 +1,21 @@
+- 👋 Hi, I’m @Usmanafan
+- 👀 I’m interested in ...
+- 🌱 I’m currently learning ...
+- 💞️ I’m looking to collaborate on ...
+- 📫 How to reach me ...
+
+<!---
+Usmanafan/Usmanafan is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Yo#include<stdio.h>
+void main()
+{
+int i;
+float x,n;
+printf("enter positive number:\n");
+scanf("%f",&n);
+x=n;
+for(i=0;i<10;i++)
+x=(x*x+n)/(2*x);
+printf("square root of %f=%f",n,x);
+}u can click the Preview link to take a look at your changes.
+--->
