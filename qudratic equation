@@ -1,0 +1,53 @@
+### Hi there 👋
+
+<!--
+**Usmanafan/Usmanafan** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+
+Here are some ideas to get you started:
+
+- 🔭 I’m currently working on ...
+- 🌱 I’m currently learning ...
+- 👯 I’m looking to collaborate on ...
+- 🤔 I’m looking for help with ...
+- 💬 Ask me about ...
+- 📫 How to reach me: ...
+- 😄 Pronouns: ...
+- ⚡ Fun fact: ...
+-->
+#include<stdio.h>
+#include<math.h>
+main()
+{
+float a,b,c;
+float root1,root2,realp,imgp,disc;
+printf("enter three coefficients of the quadratic equation\n");
+scanf("%f%f%f",&a,&b,&c);
+if(a==0)
+{
+printf("its not a quadratic equation");
+exit(0);
+}
+disc=b*b-4*a*c;
+if (disc==0)
+{
+printf("\nRoots are equal");
+root1=root2=-b/(2*a);
+printf("\nroot1=root2=%f",root1);
+}
+else if(disc>0)
+{
+printf("\nroots are equal and distinct");
+root1=(-b+sqrt(disc))/(2*a);
+root2=(-b-sqrt(disc))/(2*a);
+printf("\nroot=%f",root1);
+printf("\nroot=%f",root2);
+}
+else
+{
+printf("\nroots are imaginary");
+realp=-b/(2.0*a);
+imgp=sqrt(fabs(disc))/(2*a);
+printf("\nroot1=%f+i%f",realp,imgp);
+printf("\nroot2=%f-i%f",realp,imgp);
+}
+}
