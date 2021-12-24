@@ -1,0 +1,44 @@
+### Hi there 👋
+
+<!--
+**Usmanafan/Usmanafan** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+
+Here are some ideas to get you started:
+
+- 🔭 I’m currently working on ...
+- 🌱 I’m currently learning ...
+- 👯 I’m looking to collaborate on ...
+- 🤔 I’m looking for help with ...
+- 💬 Ask me about ...
+- 📫 How to reach me: ...
+- 😄 Pronouns: ...
+- ⚡ Fun fact: ...
+-->
+#include<stdio.h>
+int main()
+{
+float a,b,res;
+int ch;
+printf("enter two numbers\n");
+scanf("%f%f",&a,&b);
+printf("enter your choice\n 1.addition\n 2.subtraction\n 3.multiplication\n 4.division\n");
+scanf("%d",&ch);
+switch(ch)
+{
+case 1:res=a+b;
+printf("sum=%f",res);
+break;
+case 2:res=a-b;;
+printf("difference=%f",res);
+break;
+case 3:res=a*b;;
+printf("product=%f",res);
+break;
+case 4:res=a/b;
+printf("quotient=%f",res);
+break;
+default:printf("wrong choice");
+break;
+}
+}
+
