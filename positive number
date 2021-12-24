@@ -1,0 +1,27 @@
+### Hi there 👋
+
+<!--
+**Usmanafan/Usmanafan** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+
+Here are some ideas to get you started:
+
+- 🔭 I’m currently working on ...
+- 🌱 I’m currently learning ...
+- 👯 I’m looking to collaborate on ...
+- 🤔 I’m looking for help with ...
+- 💬 Ask me about ...
+- 📫 How to reach me: ...
+- 😄 Pronouns: ...
+- ⚡ Fun fact: ...
+-->
+#include<stdio.h>
+ main()
+{
+int i;
+float x,n;
+printf("Enter a positive number:\n");
+scanf("%f",&n);
+x=n;
+for(i=0;i<10;i++);
+x=(x*x+n)/(2*x);
+}
