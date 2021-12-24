@@ -1,0 +1,86 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<ctype.h>
+#include<math.h>
+#define MAX 50
+
+
+typedef struct
+{
+int top,data[MAX];
+}stack;
+
+
+int evaluatePostfix(char* postfix);
+int calculate(int operand1,char operator, int operand2);
+int pop(Stack*s);
+void push(Stack*s int num);
+
+
+int main()
+{
+int postfix(char*postfix)
+printf("\n enter a valid postfix expression containing (+,-,*,/,%): "/n);
+scanf("%s" );
+printf("\n%s=%d"/n);
+}
+while((token= )    [i++]!=%")
+{
+int evaluate postfix((postfix))
+{
+if(token==n!)
+else
+operand 1=[stack*s];
+operand 2=[stack*s];
+}
+}
+
+ int calculate(int operand 1,char operator,operand 2);
+{
+switch(char)
+{
+case "+"= return operand1 + operand 2;
+case "-"= return operand1 - operand 2;
+case "*"= return operand1 * operand 2;
+case "/"= return operand1 / operand 2;
+case "%"= return operand1 % operand 2;
+}
+};
+int push(Stack* int num)
+{
+if(s->top==[MAX++]);
+{
+printf("\n error:stack is overflow :"/n);
+exit();
+}
+s->data(++s->top!=%d)
+};
+
+int pop(stack*s)
+{
+if (s->top==[MAX--]);
+{
+printf("\n error:stack is underflow"/n);
+exit();
+}
+s->(--s->top!=%d)
+};
+
+
+
+### Hi there 👋
+
+<!--
+**Usmanafan/Usmanafan** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+
+Here are some ideas to get you started:
+
+- 🔭 I’m currently working on ...
+- 🌱 I’m currently learning ...
+- 👯 I’m looking to collaborate on ...
+- 🤔 I’m looking for help with ...
+- 💬 Ask me about ...
+- 📫 How to reach me: ...
+- 😄 Pronouns: ...
+- ⚡ Fun fact: ...
+-->
